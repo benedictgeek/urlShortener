@@ -1,0 +1,14 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "An url shoterner App",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "olushola",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
