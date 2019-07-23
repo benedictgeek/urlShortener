@@ -1,0 +1,151 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    width: 100%;
+    height: 3rem;
+    background: #228b22;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.main-header__brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-left: 0.4rem; 
+}
+
+.main-header__nav {
+    display: inline-block;
+    width: calc(100% - 120px);
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-header__nav--lists {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-header__nav--list {
+    display: inline-block;
+    margin: 0 0 0 1.5rem;
+}
+
+.main-header__nav--list a {
+    text-decoration: none;
+    color: white;
+}
+.main-header__nav--list a:hover,
+.main-header__nav--list a:active {
+    text-decoration: none;
+    color: #eee8aa;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid #eee8aa;
+}
+
+main {
+    text-align: center;
+}
+
+.main-input {
+    margin-top: 11rem;
+}
+
+.main-input input {
+    border: 2px solid#228b22;
+    width: 16rem;
+    height: 2rem;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.main-input input:focus {
+    outline: none;
+    background: #84e084;
+}
+
+.main-input button {
+    color: white;
+    background: #228b22;
+    width: 3rem;
+    height: 2rem;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-input button:hover,
+.main-input button:active {
+    background: white;
+    color: #228b22;
+    border: 1px solid #228b22;
+    cursor: pointer;
+}
+
+.main-output__intro {
+    margin-bottom: 0.6rem;
+}
+
+.main-output__url {
+    text-decoration: none;
+    color: #228b22;
+}
+
+.main-output__url:hover,
+.main-output__url:active {
+    color: #84e084;
+}
+
+.main-footer {
+    width: 100vw;
+    height: 100%;
+    background: #232423;
+    text-align: center;
+    padding: 0.3rem;
+    margin-top: calc(100vh - 374px)
+}
+.main-footer__nav {
+    display: inline-block;
+}
+.main-footer__nav--lists {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-footer__nav--list {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.main-footer__nav--list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.copywrite {
+    color: white;
+    margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
