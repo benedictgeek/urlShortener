@@ -9,6 +9,7 @@
   "author": "olushola",
   "license": "ISC",
   "dependencies": {
+    "mongodb": "^3.3.0-beta2",
     "nodemon": "^1.19.1"
   }
 }
